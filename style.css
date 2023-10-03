@@ -220,11 +220,11 @@
 .bio-text p {
   font-weight: 300;
   padding-bottom: 80px;
-  color: black;
+  color: #012153;;
 }
 
 .speech {
-  color: black;
+  color: #012153;;
   display: grid;
 
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -343,15 +343,21 @@ transform: translateY(0px);
 }
 .engagements {
   padding-top: 70px;
+  justify-content: center;
 
   text-align: center;
 }
-.engagements hr{
-    width: 300px;
-    justify-self: center;
+.engagements-text{
+  text-align: center;
 }
+.engagements-text h3{
+  font-size: 25px;
+  color: #012153;
+}
+
 .engage-p {
   padding-bottom: 40px;
+  color: #012153;
 }
 
 .p-1{
@@ -369,6 +375,80 @@ transform: translateY(0px);
  
   padding: 0px 60px;
 }
-.footer {
+.publications {
   height: 100vh;
+  padding: 80px 65px;
+  align-items: start;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.publications-text h3{
+  color: #012153;
+  font-size: 25px;
+  margin-bottom: 5px;
+
+}
+.publications-text p a{
+  font-weight: 700;
+  color: #0060fb;
+
+}
+.publications-text i{
+  margin-left: 7px;
+  
+
+}
+.pub1, .pub2, .pub3, .pub4{
+  margin-bottom: 40px;
+}
+.footer{
+  height: 150px;
+  background-image: linear-gradient(to top, #0060fb 0%, #2363cb 100%);
+}
+.footer-stuff{
+align-items: center;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+padding: 40px 65px;
+}
+.get-in-touch{
+  color: white;
+}
+
+.contact-buttons{
+  align-items: center;
+}
+.button1{
+  background-color: #012153;
+    color: white;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    
+    transition: 0.2s ease;
+    font-size: 18px;
+   
+    margin-right: 50px;
+
+}
+.button2 {
+  background-color: white;
+  color: #0060fb;
+  margin-top: 5px;
+  border: none;
+  outline: none;
+  padding: 5px 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  
+  transition: 0.2s ease;
+  font-size: 18px;
+  
+  
+
 }
